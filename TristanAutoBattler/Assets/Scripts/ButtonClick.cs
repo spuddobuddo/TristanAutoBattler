@@ -5,6 +5,6 @@ using UnityEngine;
 public class ButtonClick : MonoBehaviour
 {
     public void OnButtonPress(){
-        ClickManager.instance.addClick();
+        ClickManager.instance.addClick(1);
     }
 }

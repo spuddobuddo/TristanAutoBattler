@@ -23,12 +23,17 @@ public class ClickManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void addClick()
+    public void addClick(int x)
     {
-        click++;
+        click += x;
         clickText.text = "CLICKS: " + click.ToString();
     }
 
+    public void removeClick(int x)
+    {
+        click -= x;
+        clickText.text = "CLICKS: " + click.ToString();
+    }
     public int returnClick()
     {
         return click;
