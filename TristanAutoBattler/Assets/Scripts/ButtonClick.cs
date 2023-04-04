@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class ButtonClick : MonoBehaviour
 {
-    int n;
+    public int click;
+
     public void OnButtonPress(){
-        n++;
-        Debug.Log("Button clicked " + n + " times.");
-   }
+        click++;
+        Debug.Log("Button clicked " + click + " times.");
+    }
+
+    public int returnClick()
+    {
+        return click;
+    }
 }
