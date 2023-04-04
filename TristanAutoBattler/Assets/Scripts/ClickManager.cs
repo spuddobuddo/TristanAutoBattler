@@ -28,4 +28,9 @@ public class ClickManager : MonoBehaviour
         click++;
         clickText.text = "CLICKS: " + click.ToString();
     }
+
+    public int returnClick()
+    {
+        return click;
+    }
 }
