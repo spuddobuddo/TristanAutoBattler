@@ -40,6 +40,28 @@ public class Self : MonoBehaviour
         itemluck += p;
     }
 
+    public void removeL(int p){
+        level -= p;
+    }
+    public void removeH(int p){
+        maxhealth -= p;
+    }
+    public void removeA(int p){
+        atk -= p;
+    }
+    public void removeAS(int p){
+        atkspeed -= p;
+    }
+    public void removeD(int p){
+        defense -= p;
+    }
+    public void removeCL(int p){
+        critluck -= p;
+    }
+    public void removeIL(int p){
+        itemluck -= p;
+    }
+
     // Update is called once per frame
     void Update()
     {
