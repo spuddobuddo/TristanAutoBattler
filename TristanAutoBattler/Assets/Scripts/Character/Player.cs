@@ -118,4 +118,22 @@ public class Player : MonoBehaviour
     {
         return itemluck;
     }
+
+    public void SavePlayer()
+    {
+        SaveSystem.SavePlayer(this);
+    }
+
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
+
+        maxhealth = data.maxhealth;
+        atk = data.atk;
+        level = data.level;
+        atkspeed = data.atkspeed;
+        defense = data.defense;
+        critluck = data.critluck;
+        itemluck = data.itemluck;
+    }
 }
