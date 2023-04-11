@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoneySystem : MonoBehaviour
 {
-    public int money = 0;
+    private int money = 0;
 
     public void addMoney(int x)
     {
@@ -16,7 +16,7 @@ public class MoneySystem : MonoBehaviour
         money -= x;
     }
 
-    public int returnMoney()
+    public int getMoney()
     {
         return money;
     }

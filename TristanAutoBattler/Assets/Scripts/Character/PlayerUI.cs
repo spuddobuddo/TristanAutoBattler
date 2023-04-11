@@ -12,83 +12,21 @@ public class PlayerUI : MonoBehaviour
     public Text stat5;
     public Text stat6;
     public Text stat7;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-    
-    public void addL(int p){
-        PlayerData.level += p;
-        Debug.Log("added "+p+" level(s)");
-    }
-    public void addH(int p){
-        PlayerData.maxhealth += p;
-        Debug.Log("added "+p+" health");
-    }
-    public void addA(int p){
-        PlayerData.atk += p;
-        Debug.Log("added "+p+" attack");
-    }
-    public void addAS(int p){
-        PlayerData.atkspeed += p;
-        Debug.Log("added "+p+" attackspeed");
-    }
-    public void addD(int p){
-        PlayerData.defense += p;
-        Debug.Log("added "+p+" defense");
-    }
-    public void addCL(int p){
-        PlayerData.critluck += p;
-        Debug.Log("added "+p+" critluck");
-    }
-    public void addIL(int p){
-        PlayerData.itemluck += p;
-        Debug.Log("added "+p+" itemluck");
-    }
 
-    public void removeL(int p){
-        PlayerData.level -= p;
-        Debug.Log("removed "+p+" level(s)");
-    }
-    public void removeH(int p){
-        PlayerData.maxhealth -= p;
-        Debug.Log("removed "+p+" health");
-    }
-    public void removeA(int p){
-        PlayerData.atk -= p;
-        Debug.Log("removed "+p+" attack");
-    }
-    public void removeAS(int p){
-        PlayerData.atkspeed -= p;
-        Debug.Log("removed "+p+" attackspeed");
-    }
-    public void removeD(int p){
-        PlayerData.defense -= p;
-        Debug.Log("removed "+p+" defense");
-    }
-    public void removeCL(int p){
-        PlayerData.critluck -= p;
-        Debug.Log("removed "+p+" critluck");
-    }
-    public void removeIL(int p){
-        PlayerData.itemluck -= p;
-        Debug.Log("removed "+p+" itemluck");
-    }
+    public Player player;
+    
     // Update is called once per frame
     void Update()
     {
-        DisplayStat1(PlayerData.maxhealth);
-        DisplayStat2(PlayerData.atk);
-        DisplayStat3(PlayerData.level);
-        DisplayStat4(PlayerData.atkspeed);
-        DisplayStat5(PlayerData.defense);
-        DisplayStat6(PlayerData.critluck);
-        DisplayStat7(PlayerData.itemluck);
-
-
+        DisplayStat1(player.getHealth());
+        DisplayStat2(player.getAtk());
+        DisplayStat3(player.getLevel());
+        DisplayStat4(player.getAtkspeed());
+        DisplayStat5(player.getDefense());
+        DisplayStat6(player.getCritluck());
+        DisplayStat7(player.getItemluck());
     }
+
     void DisplayStat1(int stat)
     {
         stat1.text = stat.ToString();
