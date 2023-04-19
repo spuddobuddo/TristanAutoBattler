@@ -4,8 +4,14 @@ using UnityEngine;
 
 public class MoneySystem : MonoBehaviour
 {
-    private int money = 0;
+    public static MoneySystem instance;
 
+    int money = 0;
+
+    private void Awake()
+    {
+        instance = this;
+    }
     public void addMoney(int x)
     {
         money += x;
