@@ -8,7 +8,10 @@ public class Enemy : MonoBehaviour
     public int attackspeed;
     public int attack;
 
-    public Enemy(int h, int as, int at){
+    public Enemy(int h, int ats, int at){
+        health = h;
+        attackspeed = ats;
+        attack = at;
 
     }
 }
