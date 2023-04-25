@@ -676,7 +676,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -708,7 +708,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -116.11, y: 667.08374}
+  m_AnchoredPosition: {x: -116.11, y: 712.33}
   m_SizeDelta: {x: 534.3711, y: 122.3991}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1122976788
@@ -993,7 +993,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 0
     m_MaxSize: 100
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
@@ -1025,7 +1025,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -55.8567, y: 822.5264}
+  m_AnchoredPosition: {x: -55.859, y: 821}
   m_SizeDelta: {x: 654.8725, y: 94.9472}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1712238249
@@ -1174,13 +1174,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a238aa058b9c27340965285d730dd710, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxhealth: 10
+  maxhealth: 0
   atk: 0
   level: 1
   atkspeed: 0
   defense: 0
   critluck: 0
   itemluck: 0
+  stage: 0
 --- !u!4 &1923761123
 Transform:
   m_ObjectHideFlags: 0
