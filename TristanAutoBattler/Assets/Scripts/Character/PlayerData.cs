@@ -12,6 +12,7 @@ public class PlayerData
     public int defense;
     public int critluck;
     public int itemluck;
+    public int stage;
 
     public PlayerData (Player player)
     {
@@ -22,5 +23,6 @@ public class PlayerData
         defense = player.defense;
         critluck = player.critluck;
         itemluck = player.itemluck;
+        stage = player.stage;
     }
 }

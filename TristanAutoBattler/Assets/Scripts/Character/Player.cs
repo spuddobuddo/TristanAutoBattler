@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     public int defense = 0;
     public int critluck = 0; //crits
     public int itemluck = 0; //(pootis)
+    public int stage = 0;
 
     public void addL(int p)
     {
