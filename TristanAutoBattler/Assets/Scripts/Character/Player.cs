@@ -12,6 +12,12 @@ public class Player : MonoBehaviour
     public int critluck = 0; //crits
     public int itemluck = 0; //(pootis)
     public int stage = 0;
+    public int clicks = 0;
+
+    public void Start()
+    {
+        LoadPlayer();
+    }
 
     public void addL(int p)
     {
@@ -123,6 +129,7 @@ public class Player : MonoBehaviour
     public void SavePlayer()
     {
         SaveSystem.SavePlayer(this);
+        Debug.Log("saved");
     }
 
     public void LoadPlayer()
@@ -136,5 +143,7 @@ public class Player : MonoBehaviour
         defense = data.defense;
         critluck = data.critluck;
         itemluck = data.itemluck;
+        clicks = ClickManager.instance.returnClick();
+        Debug.Log("loaded");
     }
 }
