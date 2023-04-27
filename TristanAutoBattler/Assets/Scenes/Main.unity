@@ -718,6 +718,8 @@ MonoBehaviour:
   critluck: 0
   itemluck: 0
   stage: 0
+  clicks: 0
+  health: 10
 --- !u!114 &992616870
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -850,7 +852,6 @@ GameObject:
   - component: {fileID: 1122976789}
   - component: {fileID: 1122976793}
   - component: {fileID: 1122976794}
-  - component: {fileID: 1122976795}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -958,6 +959,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clickText: {fileID: 1577259355}
+  player: {fileID: 992616869}
 --- !u!114 &1122976794
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -973,26 +975,6 @@ MonoBehaviour:
   timeRemaining: 30
   timerIsRunning: 0
   timeText: {fileID: 1084259607}
---- !u!114 &1122976795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1122976788}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c57adeac2df0f5841964a5858c0106bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  stat1: {fileID: 0}
-  stat2: {fileID: 0}
-  stat3: {fileID: 0}
-  stat4: {fileID: 0}
-  stat5: {fileID: 0}
-  stat6: {fileID: 0}
-  stat7: {fileID: 0}
-  player: {fileID: 0}
 --- !u!1 &1577259354
 GameObject:
   m_ObjectHideFlags: 0

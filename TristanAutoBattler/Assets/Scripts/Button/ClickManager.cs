@@ -9,6 +9,7 @@ public class ClickManager : MonoBehaviour
 
     public Text clickText;
 
+    public Player player;
     int click = 0;
 
     private void Awake()
@@ -19,6 +20,7 @@ public class ClickManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        click = player.getClicks();
         clickText.text = "CLICKS: " + click.ToString();
     }
 

@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
     public int itemluck = 0; //(pootis)
     public int stage = 0;
     public int clicks = 0;
+    public int health = 10;
 
     public void Start()
     {
@@ -26,9 +27,16 @@ public class Player : MonoBehaviour
     }
     public void addH(int p)
     {
-        maxhealth += p;
+        health += p;
         Debug.Log("added " + p + " health");
     }
+
+    public void addMH(int p)
+    {
+        maxhealth += p;
+        Debug.Log("added " + p + " maxhealth");
+    }
+
     public void addA(int p)
     {
         atk += p;
@@ -62,9 +70,16 @@ public class Player : MonoBehaviour
     }
     public void removeH(int p)
     {
-        maxhealth -= p;
+        health -= p;
         Debug.Log("removed " + p + " health");
     }
+
+    public void removeMH(int p)
+    {
+        maxhealth -= p;
+        Debug.Log("removed " + p + " maxhealth");
+    }
+
     public void removeA(int p)
     {
         atk -= p;
@@ -128,8 +143,14 @@ public class Player : MonoBehaviour
 
     public void SavePlayer()
     {
+        clicks = ClickManager.instance.returnClick();
         SaveSystem.SavePlayer(this);
         Debug.Log("saved");
+    }
+
+    public int getClicks()
+    {
+        return clicks;
     }
 
     public void LoadPlayer()
@@ -143,7 +164,8 @@ public class Player : MonoBehaviour
         defense = data.defense;
         critluck = data.critluck;
         itemluck = data.itemluck;
-        clicks = ClickManager.instance.returnClick();
+        clicks = data.clicks;
+        health = data.health;
         Debug.Log("loaded");
     }
 }

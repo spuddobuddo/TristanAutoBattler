@@ -14,6 +14,7 @@ public class PlayerData
     public int itemluck;
     public int stage;
     public int clicks;
+    public int health;
 
     public PlayerData (Player player)
     {
@@ -26,5 +27,6 @@ public class PlayerData
         itemluck = player.itemluck;
         stage = player.stage;
         clicks = player.clicks;
+        health = player.health;
     }
 }
