@@ -12,6 +12,6 @@ public class Enemy : MonoBehaviour
         health = h;
         attackspeed = ats;
         attack = at;
-
     }
+    
 }
