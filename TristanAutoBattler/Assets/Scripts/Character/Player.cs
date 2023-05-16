@@ -106,7 +106,13 @@ public class Player : MonoBehaviour
         Debug.Log("removed " + p + " itemluck");
     }
 
+
     public int getHealth()
+    {
+        return health;
+    }
+
+    public int getMaxHealth()
     {
         return maxhealth;
     }

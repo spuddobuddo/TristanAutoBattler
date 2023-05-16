@@ -18,27 +18,18 @@ public class PlayerUI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        DisplayStat1(player.getHealth());
-        DisplayStat2(player.getAtk());
-        DisplayStat3(player.getLevel());
-        DisplayStat4(player.getAtkspeed());
-        DisplayStat5(player.getDefense());
-        DisplayStat6(player.getCritluck());
-        DisplayStat7(player.getItemluck());
+        stat1.text = player.getHealth().ToString()+"/"+player.getMaxHealth().ToString();
+        stat2.text = player.getAtk().ToString();
+        stat3.text = player.getLevel().ToString();
+        stat4.text = player.getAtkspeed().ToString();
+        stat5.text = player.getDefense().ToString();
+        stat6.text = player.getCritluck().ToString();
+        stat7.text = player.getItemluck().ToString();
     }
 
-    void DisplayStat1(int stat)
-    {
-        stat1.text = stat.ToString();
-    }
-    void DisplayStat2(int stat)
-    {
-        stat2.text = stat.ToString();
-    }
-    void DisplayStat3(int stat)
-    {
-        stat3.text = stat.ToString();
-    }
+
+    
+    
     void DisplayStat4(int stat)
     {
         stat4.text = stat.ToString();
