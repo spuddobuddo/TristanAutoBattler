@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public int maxhealth = 10;
-    public int atk = 0;
+    public int atk = 1;
     public int level = 1;
     public int atkspeed = 0;
     public int defense = 0;
@@ -146,6 +146,8 @@ public class Player : MonoBehaviour
     {
         return itemluck;
     }
+
+    
 
     public void SavePlayer()
     {
