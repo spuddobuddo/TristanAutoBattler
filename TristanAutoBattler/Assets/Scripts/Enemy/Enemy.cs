@@ -35,7 +35,7 @@ public class Enemy : MonoBehaviour
         attackspeed -= x;
     }
 
-    public boolean isdead() {
+    public bool isdead() {
         if(health <= 0) {
             return true;
         }
