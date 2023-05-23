@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
     public int attackspeed;
     public int attack;
     public Player player;
+
     public Enemy(int h, int ats, int at){
         health = h;
         attackspeed = ats;
@@ -32,6 +33,16 @@ public class Enemy : MonoBehaviour
     }
     public void removeAS(int x){
         attackspeed -= x;
+    }
+
+    public boolean isdead() {
+        if(health <= 0) {
+            return true;
+        }
+        else{
+            return false;
+        }
+        
     }
 
     public void hit() {

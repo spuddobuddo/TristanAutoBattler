@@ -19,12 +19,12 @@ public class PlayerUI : MonoBehaviour
     void Update()
     {
         stat1.text = player.getHealth().ToString()+"/"+player.getMaxHealth().ToString();
-        stat2.text = player.getAtk().ToString();
+        /*stat2.text = player.getAtk().ToString();
         stat3.text = player.getLevel().ToString();
         stat4.text = player.getAtkspeed().ToString();
         stat5.text = player.getDefense().ToString();
         stat6.text = player.getCritluck().ToString();
-        stat7.text = player.getItemluck().ToString();
+        stat7.text = player.getItemluck().ToString();*/
     }
 
 
