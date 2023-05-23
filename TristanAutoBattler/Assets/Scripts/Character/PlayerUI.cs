@@ -5,45 +5,57 @@ using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour
 {
-    public Text stat1;
-    public Text stat2;
-    public Text stat3;
-    public Text stat4;
-    public Text stat5;
-    public Text stat6;
-    public Text stat7;
+    public Text levelText;
+    public Text healthText;
+    public Text atkText;
+    public Text atkSpeedText;
+    public Text defenseText;
+    public Text critLuckText;
+    public Text itemLuckText;
+    public Text stageText;
 
-    public Player player;
-    
+    public int maxhealth;
+    public int atk;
+    public int level;
+    public int atkspeed;
+    public int defense;
+    public int critluck;
+    public int itemluck;
+    public int stage;
+    public int clicks;
+    public int health;
+
+    private void Awake()
+    {
+        LoadPlayer();
+    }
+
     // Update is called once per frame
     void Update()
     {
-        stat1.text = player.getHealth().ToString()+"/"+player.getMaxHealth().ToString();
-        /*stat2.text = player.getAtk().ToString();
-        stat3.text = player.getLevel().ToString();
-        stat4.text = player.getAtkspeed().ToString();
-        stat5.text = player.getDefense().ToString();
-        stat6.text = player.getCritluck().ToString();
-        stat7.text = player.getItemluck().ToString();*/
+        levelText.text = level.ToString();
+        healthText.text = health.ToString()+"/"+maxhealth.ToString();
+        atkText.text = atk.ToString();
+        atkSpeedText.text = atkspeed.ToString();
+        defenseText.text = defense.ToString();
+        critLuckText.text = critluck.ToString();
+        itemLuckText.text = itemluck.ToString();
+        stageText.text = stage.ToString();
     }
 
+    public void LoadPlayer()
+    {
+        PlayerData data = SaveSystem.LoadPlayer();
 
-    
-    
-    void DisplayStat4(int stat)
-    {
-        stat4.text = stat.ToString();
-    }
-    void DisplayStat5(int stat)
-    {
-        stat5.text = stat.ToString();
-    }
-    void DisplayStat6(int stat)
-    {
-        stat6.text = stat.ToString();
-    }
-    void DisplayStat7(int stat)
-    {
-        stat7.text = stat.ToString();
+        maxhealth = data.maxhealth;
+        atk = data.atk;
+        level = data.level;
+        atkspeed = data.atkspeed;
+        defense = data.defense;
+        critluck = data.critluck;
+        itemluck = data.itemluck;
+        clicks = data.clicks;
+        health = data.health;
+        Debug.Log("loaded");
     }
 }
