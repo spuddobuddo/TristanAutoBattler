@@ -38,6 +38,7 @@ public class ClickManager : MonoBehaviour
     }
     public int returnClick()
     {
+        Debug.Log("Clicks:" + click);
         return click;
     }
 }

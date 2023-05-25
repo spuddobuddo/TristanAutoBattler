@@ -2,11 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MoneySystem : MonoBehaviour
+public class Inventory : MonoBehaviour
 {
-    public static MoneySystem instance;
-
-    public int money = 0;
+    #region Singleton
+    public static Inventory instance;
 
     private void Awake()
     {
@@ -19,18 +18,17 @@ public class MoneySystem : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
-    public void addMoney(int x)
+    #endregion
+
+    public List<Item> items = new List<Item>();
+
+    public void addItem (Item item)
     {
-        money += x;
+        items.Add(item);
     }
 
-    public void removeMoney(int x)
+    public void removeItem (Item item)
     {
-        money -= x;
-    }
-
-    public int getMoney()
-    {
-        return money;
+        items.Remove(item);
     }
 }
