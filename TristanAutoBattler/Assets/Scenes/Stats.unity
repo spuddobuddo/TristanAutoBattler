@@ -158,7 +158,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135.36906, y: 43.97998}
+  m_AnchoredPosition: {x: 262.37, y: -337}
   m_SizeDelta: {x: 288.9, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &60475431
@@ -194,7 +194,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Stage:'
+  m_Text: stg
 --- !u!222 &60475432
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135.36908, y: 242.97998}
+  m_AnchoredPosition: {x: 262.37, y: 83}
   m_SizeDelta: {x: 288.8986, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &132379202
@@ -274,7 +274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'CritLuck:'
+  m_Text: def
 --- !u!222 &132379203
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 156.72845, y: 536.98}
+  m_AnchoredPosition: {x: 283.36002, y: -194.98303}
   m_SizeDelta: {x: 331.6174, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &184985460
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'MaxHealth:'
+  m_Text: il
 --- !u!222 &184985461
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -877,7 +877,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 106, y: 442}
+  m_AnchoredPosition: {x: 233, y: 488}
   m_SizeDelta: {x: 230.1605, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1273090793
@@ -913,7 +913,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Attack:'
+  m_Text: heal
 --- !u!222 &1273090794
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -957,7 +957,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 190.10242, y: 343.97998}
+  m_AnchoredPosition: {x: 317.1, y: 213.04}
   m_SizeDelta: {x: 398.3653, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1391315323
@@ -993,7 +993,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'AttackSpeed:'
+  m_Text: atkspd
 --- !u!222 &1391315324
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1037,7 +1037,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 99, y: 710.99}
+  m_AnchoredPosition: {x: 233, y: 630}
   m_SizeDelta: {x: 230.1605, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1401440299
@@ -1073,7 +1073,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Attack:'
+  m_Text: lvl
 --- !u!222 &1401440300
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1197,7 +1197,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 88.33595, y: 630.95996}
+  m_AnchoredPosition: {x: 218.33, y: 358}
   m_SizeDelta: {x: 200.8337, y: 70.029}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1819203939
@@ -1233,7 +1233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Level:'
+  m_Text: atk
 --- !u!222 &1819203940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1277,7 +1277,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 135.36906, y: 140.97998}
+  m_AnchoredPosition: {x: 262, y: -64}
   m_SizeDelta: {x: 288.9, y: 70.0269}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1863910951
@@ -1313,7 +1313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'ItemLuck:'
+  m_Text: cl
 --- !u!222 &1863910952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1357,8 +1357,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68.946594, y: -103.72998}
-  m_SizeDelta: {x: 504.0668, y: 1551.4478}
+  m_AnchoredPosition: {x: -105.27142, y: 142.64697}
+  m_SizeDelta: {x: 431.4171, y: 1058.694}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2008741558
 MonoBehaviour:
@@ -1403,6 +1403,9 @@ MonoBehaviour:
 
 
     attackspeed:
+
+
+    defense:
 
 
     critluck:
