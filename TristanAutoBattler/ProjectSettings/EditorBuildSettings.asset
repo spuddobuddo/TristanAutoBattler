@@ -19,6 +19,9 @@ EditorBuildSettings:
     guid: 483dd23c2a529104d9b7b7f90de96584
   - enabled: 1
     path: Assets/Scenes/Stats.unity
+    guid: 7e390707be5fff1458f02a6d86c04ccc
+  - enabled: 1
+    path: Assets/Scenes/Equipment.unity
     guid: b9ff725e5cbaaff4b96fcb478bd5c6e0
   m_configObjects:
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: d1a099f51a6143849a9dff6457e86cb8, type: 2}

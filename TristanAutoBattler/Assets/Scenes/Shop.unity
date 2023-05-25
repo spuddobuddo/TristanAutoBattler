@@ -445,6 +445,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 10985492}
     m_Modifications:
+    - target: {fileID: 1710245983346067022, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: purrrrrrrr
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971569257424614952, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: cat mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299768523875961108, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 978ff401d1c2d854aa6583bc7c827019, type: 3}
+    - target: {fileID: 3385695809214408533, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: RequiredAmount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450514324729330809, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: 15 clicks
+      objectReference: {fileID: 0}
     - target: {fileID: 8569816568234435337, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -542,6 +562,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 10985492}
     m_Modifications:
+    - target: {fileID: 1710245983346067022, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: uwu :3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971569257424614952, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: cat Paws
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299768523875961108, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 55c7664222439974fae1334a28b4f9ba, type: 3}
+    - target: {fileID: 3385695809214408533, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: RequiredAmount
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450514324729330809, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: 15 clicks
+      objectReference: {fileID: 0}
     - target: {fileID: 8569816568234435337, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -1586,6 +1626,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 10985492}
     m_Modifications:
+    - target: {fileID: 1710245983346067022, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: meow!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2971569257424614952, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: Cat ears
+      objectReference: {fileID: 0}
+    - target: {fileID: 3299768523875961108, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4fc3912f6b54fee4a9b045e59fc57f4c, type: 3}
+    - target: {fileID: 3385695809214408533, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: RequiredAmount
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8450514324729330809, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
+      propertyPath: m_Text
+      value: 10 clicks
+      objectReference: {fileID: 0}
     - target: {fileID: 8569816568234435337, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
