@@ -4,46 +4,22 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public int health;
-    public int attackspeed;
+    public int maxh = 10;
+    public int curH = 10;
     public int attack;
     public Player player;
-
-    public Enemy(int h, int ats, int at){
-        health = h;
-        attackspeed = ats;
-        attack = at;
+    public EnemyData enemyData;
+    public Image enemyImage;
+    
+    public void damaged(int x) {
+        curH -= x;
     }
 
     public void addA(int x){
         attack += x;
     }
-    public void addH(int x){
-        health += x;
-    }
-    public void addAS(int x){
-        attackspeed += x;
-    }
 
-    public void removeA(int x){
-        attack -= x;
-    }
-    public void removeH(int x){
-        health -= x;
-    }
-    public void removeAS(int x){
-        attackspeed -= x;
-    }
-
-    public bool isdead() {
-        if(health <= 0) {
-            return true;
-        }
-        else{
-            return false;
-        }
-        
-    }
+    
 
     public void hit() {
         player.removeH(attack);

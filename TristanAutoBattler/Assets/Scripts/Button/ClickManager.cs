@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ClickManager : MonoBehaviour
 {
     public static ClickManager instance;
-
+    public Enemy enemy;
     public Text clickText;
 
     public Player player;
@@ -28,6 +28,7 @@ public class ClickManager : MonoBehaviour
     public void addClick(int x)
     {
         click += x;
+        enemy.damaged(x);
         clickText.text = "CLICKS: " + click.ToString();
     }
 
