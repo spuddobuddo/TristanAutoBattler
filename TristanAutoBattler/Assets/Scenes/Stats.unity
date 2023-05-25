@@ -741,7 +741,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7121434651732364231, guid: ea7a8d809cefc754cbc62a088393d72e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 265.11
+      value: -291
       objectReference: {fileID: 0}
     - target: {fileID: 7121434651732364231, guid: ea7a8d809cefc754cbc62a088393d72e, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1094,7 +1094,7 @@ GameObject:
   - component: {fileID: 1411605787}
   - component: {fileID: 1411605786}
   m_Layer: 5
-  m_Name: Title
+  m_Name: Stats
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1153,7 +1153,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Equipment
+  m_Text: Player Stats
 --- !u!222 &1411605787
 CanvasRenderer:
   m_ObjectHideFlags: 0
