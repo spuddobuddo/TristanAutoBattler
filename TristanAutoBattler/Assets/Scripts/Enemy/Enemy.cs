@@ -8,8 +8,7 @@ public class Enemy : MonoBehaviour
     public int curH = 10;
     public int attack;
     public Player player;
-    public EnemyData enemyData;
-    public Image enemyImage;
+
     
     public void damaged(int x) {
         curH -= x;
