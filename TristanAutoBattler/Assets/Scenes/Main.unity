@@ -1025,6 +1025,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc108058d8572104fa72992e15aaa10e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemy: {fileID: 0}
   clickText: {fileID: 1577259355}
   player: {fileID: 992616869}
 --- !u!1 &1577259354
@@ -1157,8 +1158,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5cd03d328c605464ba6185571478bb61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 0
-  attackspeed: 0
+  maxh: 10
+  curH: 10
   attack: 0
   player: {fileID: 992616869}
 --- !u!114 &1678360844
@@ -1173,7 +1174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa3170d7c113c6c48a5acdf731d8038f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemy: {fileID: 0}
 --- !u!1 &1712238249
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dafe2572dd0b0341a08a2679acf509a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  money: 0
 --- !u!114 &1814131971
 MonoBehaviour:
   m_ObjectHideFlags: 0

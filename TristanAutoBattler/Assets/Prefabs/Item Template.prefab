@@ -339,6 +339,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   RequiredAmount: 0
+  item: {fileID: 0}
+  buttonText: {fileID: 7528494510078288165}
+  changeState: 0
 --- !u!1 &5699257246971076556
 GameObject:
   m_ObjectHideFlags: 0

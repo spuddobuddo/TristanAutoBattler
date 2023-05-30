@@ -1641,7 +1641,7 @@ PrefabInstance:
     - target: {fileID: 3385695809214408533, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
       propertyPath: item
       value: 
-      objectReference: {fileID: 11400000, guid: a6bd56f48c0aea94c8085f0dac1981db, type: 2}
+      objectReference: {fileID: 11400000, guid: 9e5074f605617304d9da0b0b231edda3, type: 2}
     - target: {fileID: 3385695809214408533, guid: d205da2d39d2d0845a5a4b1be156e580, type: 3}
       propertyPath: RequiredAmount
       value: 10
