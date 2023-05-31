@@ -29,6 +29,7 @@ public class ClickManager : MonoBehaviour
     {
         click += x;
         enemy.damaged(x);
+        enemy.check();
         clickText.text = "CLICKS: " + click.ToString();
     }
 

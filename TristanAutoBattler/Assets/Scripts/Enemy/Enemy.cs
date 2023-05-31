@@ -15,6 +15,10 @@ public class Enemy : MonoBehaviour
     public EnemyData enemyData;
     public Image enemyImage;
     
+
+    void Start(){
+        SpawnEnemy();
+    }
     public void damaged(int x) {
         curH -= x;
     }
@@ -22,13 +26,10 @@ public class Enemy : MonoBehaviour
     public void addA(int x){
         attack += x;
     }
-
     
-
-    public void hit() {
-        player.removeH(attack);
+    public void check(){
         isEnemyDead();
-        HPText.text = curH.ToString()+"/"+maxH.ToString();
+        UpdateUI();
     }
 
     void isEnemyDead() {
@@ -38,7 +39,7 @@ public class Enemy : MonoBehaviour
     }
     private void EnemyDied() {
         SpawnEnemy();
-        MoneySystem.instance.addMoney(droppings);
+
         
     }
     private void SpawnEnemy() {
@@ -47,8 +48,15 @@ public class Enemy : MonoBehaviour
         enemyImage.sprite = enemyData.EnemyImage;
         maxH = enemyData.BaseHitPoints;
         enemyNameText.text = enemyData.EnemyName;
-        HPText.text = curH.ToString()+"/"+maxH.ToString();
+        UpdateUI();
          
+    }
+    private void UpdateUI(){
+        HPText.text = curH.ToString()+"/"+maxH.ToString();
+    }
+
+    void Update(){
+        UpdateUI();
     }
 
     

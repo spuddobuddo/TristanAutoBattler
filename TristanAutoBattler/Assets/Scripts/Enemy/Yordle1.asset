@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0537669b18d422542b8a4e2531daded7, type: 3}
   m_Name: Yordle1
   m_EditorClassIdentifier: 
-  EnemyName: 
-  BaseHitPoints: 0
-  EnemyImage: {fileID: 0}
-  droppings: 0
+  EnemyName: Pootis
+  BaseHitPoints: 15
+  EnemyImage: {fileID: 21300000, guid: 57418a8b7e2c5054583137d48becab28, type: 3}
+  droppings: 2
