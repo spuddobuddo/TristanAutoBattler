@@ -38,7 +38,7 @@ public class Enemy : MonoBehaviour
         }
     }
     private void EnemyDied() {
-        
+        MoneySystem.instance.addMoney(droppings);
         SpawnEnemy();
     }
     private void SpawnEnemy() {

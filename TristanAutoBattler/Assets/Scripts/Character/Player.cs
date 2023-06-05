@@ -18,8 +18,8 @@ public class Player : MonoBehaviour
     public void Start()
     {
         LoadPlayer();
-        Item[] equippedItems = Inventory.instance.returnItems();
-        addMH(equippedItems[0].getmaxHealthMod());
+        //Item[] equippedItems = Inventory.instance.returnItems();
+        //addMH(equippedItems[0].getmaxHealthMod());
     }
 
     public void addL(int p)
