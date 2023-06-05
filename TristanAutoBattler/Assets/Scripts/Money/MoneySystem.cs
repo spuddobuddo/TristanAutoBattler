@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class MoneySystem : MonoBehaviour
 {
-
     public int money = 0;
 
     #region Singleton

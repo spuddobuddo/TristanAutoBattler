@@ -10,8 +10,12 @@ public class Item : ScriptableObject
 
     public EquipmentSlot equipSlot;
 
-    public int healthModifier;
-    public int atkModifier;
+    public int maxHealthMod;
+    public int atkMod;
+    public int atkSpeedMod;
+    public int defenseMod;
+    public int critLuckMod;
+    public int itemLuckMod;
 
     public void Use()
     {
@@ -23,6 +27,36 @@ public class Item : ScriptableObject
     public void RemoveFromInventory()
     {
         Inventory.instance.removeItem(this);
+    }
+
+    public int getmaxHealthMod()
+    {
+        return maxHealthMod;
+    }
+
+    public int getAtkMod()
+    {
+        return atkMod;
+    }
+
+    public int getAtkSpeedMod()
+    {
+        return atkSpeedMod;
+    }
+
+    public int getDefenseMod()
+    {
+        return defenseMod;
+    }
+
+    public int getCritLuckMod()
+    {
+        return critLuckMod;
+    }
+
+    public int getItemLuckMod()
+    {
+        return itemLuckMod;
     }
 }
 

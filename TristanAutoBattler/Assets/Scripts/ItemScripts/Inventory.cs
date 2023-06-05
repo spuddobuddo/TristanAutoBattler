@@ -77,4 +77,6 @@ public class Inventory : MonoBehaviour
     {
         items.Remove(item);
     }
+
+    public Item[] returnItems() => currentItems;
 }

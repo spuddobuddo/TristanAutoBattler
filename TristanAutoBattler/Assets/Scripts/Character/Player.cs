@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
     public void Start()
     {
         LoadPlayer();
+        Item[] equippedItems = Inventory.instance.returnItems();
+        addMH(equippedItems[0].getmaxHealthMod());
     }
 
     public void addL(int p)
@@ -146,9 +148,7 @@ public class Player : MonoBehaviour
     {
         return itemluck;
     }
-
     
-
     public void SavePlayer()
     {
         clicks = ClickManager.instance.returnClick();
