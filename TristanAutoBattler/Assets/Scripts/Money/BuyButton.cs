@@ -9,11 +9,10 @@ public class BuyButton : MonoBehaviour
     public Item item;
     public Text buttonText;
 
-    public bool changeState = false;
+    bool changeState = false;
 
     public void OnButtonPress()
     {
-        MoneySystem.instance.addMoney(10);
         int money = MoneySystem.instance.getMoney();
         if (changeState == false)
         {

@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class MoneySystem : MonoBehaviour
 {
-    public static MoneySystem instance;
 
     public int money = 0;
+
+    #region Singleton
+    public static MoneySystem instance;
 
     private void Awake()
     {
@@ -19,6 +21,8 @@ public class MoneySystem : MonoBehaviour
         instance = this;
         DontDestroyOnLoad(this.gameObject);
     }
+    #endregion
+
     public void addMoney(int x)
     {
         money += x;
