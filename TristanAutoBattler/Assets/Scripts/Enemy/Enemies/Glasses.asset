@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0537669b18d422542b8a4e2531daded7, type: 3}
-  m_Name: Yordle1
+  m_Name: Glasses
   m_EditorClassIdentifier: 
-  EnemyName: Pootis
-  BaseHitPoints: 15
-  EnemyImage: {fileID: 21300000, guid: 57418a8b7e2c5054583137d48becab28, type: 3}
+  EnemyName: Glasses
+  BaseHitPoints: 8
+  EnemyImage: {fileID: 21300000, guid: 57f7c3c9a8686414fb1cf1482b208047, type: 3}
   droppings: 2
