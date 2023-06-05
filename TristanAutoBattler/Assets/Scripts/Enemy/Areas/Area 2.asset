@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 264238ec48b6d6a4982d16078198f1d6, type: 3}
-  m_Name: Plains
+  m_Name: Area 2
   m_EditorClassIdentifier: 
   EnemyProfiles:
   - {fileID: 11400000, guid: 40c5097d357f4124196bdb1d62be6779, type: 2}

@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0537669b18d422542b8a4e2531daded7, type: 3}
-  m_Name: baby
+  m_Script: {fileID: 11500000, guid: 264238ec48b6d6a4982d16078198f1d6, type: 3}
+  m_Name: Area 1
   m_EditorClassIdentifier: 
-  EnemyName: baby
-  BaseHitPoints: 5
-  EnemyImage: {fileID: 21300000, guid: 57418a8b7e2c5054583137d48becab28, type: 3}
-  droppings: 1
+  EnemyProfiles:
+  - {fileID: 11400000, guid: 40c5097d357f4124196bdb1d62be6779, type: 2}
+  - {fileID: 11400000, guid: 4b415e1bc71b3264c8f455fe2abb4fbf, type: 2}
