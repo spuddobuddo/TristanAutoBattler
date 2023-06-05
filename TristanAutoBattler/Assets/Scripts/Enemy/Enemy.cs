@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     public Player player;
     public EnemyData enemyData;
     public Image enemyImage;
-    
+    public AreaManager areaManager;
 
     void Start(){
         SpawnEnemy();
@@ -38,17 +38,18 @@ public class Enemy : MonoBehaviour
         }
     }
     private void EnemyDied() {
-        SpawnEnemy();
-
         
+        SpawnEnemy();
     }
     private void SpawnEnemy() {
+        enemyData = areaManager.GetEnemy();
         droppings = enemyData.droppings;
         curH = enemyData.BaseHitPoints;
         enemyImage.sprite = enemyData.EnemyImage;
         maxH = enemyData.BaseHitPoints;
         enemyNameText.text = enemyData.EnemyName;
         UpdateUI();
+
          
     }
     private void UpdateUI(){
